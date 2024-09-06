@@ -2,15 +2,7 @@
 #include <lua.h>
 #include <lualib.h>
 #include <lauxlib.h>
-int RunLua(int argc, char* argv[]) {
-   // if there isn't a script put in
-   if (argc != 2) {
-      fprintf(stderr, "Usage: %s <script.lua>\n", argv[0]);
-      return 1;
-   }
-
-   // gets the script path
-   const char *ScriptPath = argv[1];
+int RunLua(const char* ScriptPath) {
 
    // makes a new lua state
    lua_State *LuaState = luaL_newstate();

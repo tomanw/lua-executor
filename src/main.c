@@ -1,9 +1,8 @@
-#include "lua.h"
 #include "files.h"
 
-extern int RunLua(int argc, char* argv[]);
+extern int RunLua(const char* ScriptPath);
 
 int main(int argc, char *argv[]) {
-   RunLua(argc, argv);
-   listFiles("../src/")
+   listFiles("scripts");
+   //RunLua("scripts/script.lua");
 }
