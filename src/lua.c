@@ -1,4 +1,7 @@
-#include "lua.h"
+#include <stdio.h>
+#include <lua.h>
+#include <lualib.h>
+#include <lauxlib.h>
 int RunLua(int argc, char* argv[]) {
    // if there isn't a script put in
    if (argc != 2) {

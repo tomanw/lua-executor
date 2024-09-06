@@ -1,0 +1,8 @@
+[18:04:44 2024-09-06] FETCHING Version 2.37.7
+[18:04:44 2024-09-06] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.37.7/spicetify-2.37.7-darwin-arm64.tar.gz
+[18:04:46 2024-09-06] EXTRACTING /Users/thomasanwandter/.spicetify/spicetify.tar.gz
+[18:04:46 2024-09-06] SETTING EXECUTABLE PERMISSIONS TO /Users/thomasanwandter/.spicetify/spicetify
+[18:04:46 2024-09-06] REMOVING /Users/thomasanwandter/.spicetify/spicetify.tar.gz
+[18:04:46 2024-09-06] APPENDING /Users/thomasanwandter/.spicetify to PATH in /Users/thomasanwandter/.config/fish/config.fish
+[18:04:46 2024-09-06] spicetify v2.37.7 was installed successfully to /Users/thomasanwandter/.spicetify
+[18:04:46 2024-09-06] Run 'spicetify --help' to get started
